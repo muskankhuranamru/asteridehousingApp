@@ -1,79 +1,96 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Home unlock Application
 
-# Getting Started
+Welcome to the Home Unlock App repository! This application allows real estate companies to remotely unlock homes for potential buyers to view. It demonstrates basic React Native skills including state management, API integration, and native device feature usage.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- **Basic UI/UX**: Clean, responsive design.
+- **Authentication**: Login screen.
+- **Home List**: Displays homes with address, image, description fetched from mock API.
+- **Home Details**: Shows more info about the home and an "Unlock" button visible within 30m of the home.
+- **State Management**: Uses Context API for managing app state.
+- **Error Handling**: Gracefully manages API call failures and network issues.
+- **Local Storage**: AsyncStorage for token management and local data persistence.
+- **React Native Geolocation**: Provides precise location services for proximity checks.
+- **React Native Push Notifications**: Setup for admin and user notifications.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Dependencies
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- `react-native` (CLI): For React Native project setup.
+- `@react-native-async-storage/async-storage`: Handles AsyncStorage for token management.
+- `react-native-geolocation-service`: Provides geolocation features for proximity checks.
+- `react-native-push-notification`: Integrates push notifications for admin and user alerts.
+- `json-server`: Mocks API responses for home listing and unlocking features.
+  
+## Installation
 
-```bash
-# using npm
-npm start
+1. Clone the repository:
 
-# OR using Yarn
-yarn start
-```
+    ```bash
+    git clone <repository_url>
+    ```
 
-## Step 2: Start your Application
+2. Navigate to the project directory:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+    ```bash
+    cd <project_directory>
+    ```
 
-### For Android
+3. Install dependencies:
 
-```bash
-# using npm
-npm run android
+    ```bash
+    npm install
+    ```
 
-# OR using Yarn
-yarn android
-```
+4. Link native dependencies:
 
-### For iOS
+    ```bash
+    react-native link
+    ```
 
-```bash
-# using npm
-npm run ios
+5. Start JSON Server for mock APIs:
+   
+   Install json-server globally if not already installed:
 
-# OR using Yarn
-yarn ios
-```
+    ```bash
+   npm install -g json-server
+    
+    ```
+    
+   Start the JSON server with mock data:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+     ```bash
+     json-server --watch db.json --port 300
+    
+    ```
+ 
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+7. Run the application:
 
-## Step 3: Modifying your App
+    ```bash
+    react-native run-android
+    ```
 
-Now that you have successfully run the app, let's modify it.
+## Usage
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- Open the application on your device or emulator.
+- Log in using your credentials.
+- You will see a list of homes available for viewing.
+- Select a home to view its details, including address, image, and description.
+- If you are within 30 meters of the home, an "Unlock" button will appear.
+- Tap the "Unlock" button to simulate unlocking the home.
+- Receive feedback on the success or failure of the unlock attempt.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Note
 
-## Congratulations! :tada:
+- Ensure proper permissions are granted for location access on the device.
+- Make sure the device has a stable internet connection for API calls and map functionality.
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+## Contributor
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+Muskan Khurana 
 
-# Troubleshooting
+For reference, here are some of the screenshots attached:
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
