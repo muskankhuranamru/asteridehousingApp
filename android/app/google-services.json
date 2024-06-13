@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "105991145590",
+    "project_id": "demoproject-421010",
+    "storage_bucket": "demoproject-421010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105991145590:android:4b519f8df49e3ecfceb757",
+        "android_client_info": {
+          "package_name": "com.asteridehousingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmWIp0dCkwmtAfHJdO8WHE21vbOMe1OyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

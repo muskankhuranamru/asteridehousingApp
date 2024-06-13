@@ -1,6 +1,7 @@
 package com.asteridehousingapp
 
 import android.app.Application
+import android.util.Log
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
 import com.facebook.react.ReactHost
@@ -10,16 +11,28 @@ import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load
 import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.soloader.SoLoader
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage // <-- Import the package
 
 class MainApplication : Application(), ReactApplication {
 
   override val reactNativeHost: ReactNativeHost =
       object : DefaultReactNativeHost(this) {
-        override fun getPackages(): List<ReactPackage> =
-            PackageList(this).packages.apply {
-              // Packages that cannot be autolinked yet can be added manually here, for example:
-              // add(MyReactNativePackage())
+        override fun getPackages(): List<ReactPackage> {
+            val packages = PackageList(this).packages.toMutableList()
+            val pushNotificationPackage = ReactNativePushNotificationPackage()
+
+            // Log the packages for debugging
+            Log.d("MainApplication", "Packages before adding push notification: $packages")
+
+            if (!packages.any { it::class.java == pushNotificationPackage::class.java }) {
+              packages.add(pushNotificationPackage)
             }
+
+            // Log the packages after adding push notification
+            Log.d("MainApplication", "Packages after adding push notification: $packages")
+
+            return packages
+        }
 
         override fun getJSMainModuleName(): String = "index"
 

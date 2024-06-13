@@ -1,0 +1,158 @@
+{
+  "homes": [
+    {
+      "id": "1",
+      "heading": "Beautiful Villa 4bhk",
+      "subHeading": "This is the villa located in ZYX area",
+      "address": "123 Main St, Bangalore",
+      "description": "Step into luxury with this stunning 4-bedroom villa. Located in a serene neighborhood, this villa boasts spacious rooms, elegant interiors, and breathtaking views of the surrounding landscapes. Enjoy modern amenities such as a private pool, landscaped gardens, and a state-of-the-art kitchen. Perfect for families seeking comfort and tranquility.",
+      "imageSource": "https://drive.google.com/file/d/14dWcFQesWyvJeMmLu4m05GlFA__UinmW/view?usp=share_link",
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    {
+      "id": "2",
+      "heading": "Cozy Apartment in Downtown",
+      "subHeading": "Prime location with easy access to city life",
+      "address": "456 Downtown Blvd, Bangalore",
+      "description": "Discover urban living at its finest with this cozy 2-bedroom apartment. Situated in the heart of the city, this apartment offers convenience and comfort. Enjoy open-plan living spaces, modern furnishings, and proximity to shopping centers, restaurants, and nightlife. Ideal for young professionals or couples looking to experience city life.",
+      "imageSource": "https://images.pexels.com/photos/209338/pexels-photo-209338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "location": {
+        "latitude": 37.42217,
+        "longitude": -122.08371
+      }
+    },
+    {
+      "id": "3",
+      "heading": "Luxury Penthouse with Panoramic Views",
+      "subHeading": "Exclusive living in the heart of the city",
+      "address": "789 Skyline Avenue, Bangalore",
+      "description": "Indulge in luxury with this expansive 3-bedroom penthouse offering panoramic city views. Featuring high ceilings, floor-to-ceiling windows, and designer finishes throughout, this penthouse exudes sophistication. Enjoy amenities such as a private terrace, spa-like bathrooms, and access to a fitness center and concierge services. Perfect for discerning individuals seeking the ultimate urban retreat.",
+      "imageSource": "https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    {
+      "id": "4",
+      "heading": "Charming Cottage in Serene Surroundings",
+      "subHeading": "Escape to nature without leaving the city",
+      "address": "101 Serenity Lane, Bangalore",
+      "description": "Experience tranquility in this charming 2-bedroom cottage nestled in a peaceful neighborhood. Surrounded by lush greenery and blooming gardens, this cottage offers a retreat from the hustle and bustle of city life. Enjoy cozy interiors, a sunlit patio, and access to walking trails and parks. Perfect for nature enthusiasts and those seeking a peaceful abode.",
+      "imageSource": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    {
+      "id": "5",
+      "heading": "Modern Townhouse in Vibrant Area",
+      "subHeading": "Perfect blend of style and convenience",
+      "address": "789 Metro Plaza, Bangalore",
+      "description": "Discover contemporary living with this stylish 3-bedroom townhouse located in a vibrant neighborhood. Featuring sleek architecture, open-concept living spaces, and designer finishes, this townhouse offers the perfect balance of style and functionality. Enjoy proximity to cafes, boutiques, and cultural venues, making it an ideal choice for urban dwellers.",
+      "imageSource": "https://images.pexels.com/photos/259602/pexels-photo-259602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    {
+      "id": "6",
+      "heading": "Rustic Farmhouse Retreat",
+      "subHeading": "Escape the hustle and bustle",
+      "address": "222 Tranquil Road, Bangalore",
+      "description": "Embrace country living with this charming 4-bedroom farmhouse retreat. Nestled amidst rolling hills and scenic landscapes, this farmhouse offers serenity and space. Enjoy rustic interiors, a cozy fireplace, and expansive outdoor areas for gardening and relaxation. Perfect for families or individuals seeking a peaceful retreat away from the city.",
+      "imageSource": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    }
+  ],
+  "unlocks": [
+    {
+      "id": "a917",
+      "homeId": "2",
+      "timestamp": "2024-05-01T20:50:00.807Z"
+    },
+    {
+      "id": "2acb",
+      "homeId": "2",
+      "timestamp": "2024-05-01T20:51:16.630Z"
+    },
+    {
+      "id": "f2aa",
+      "homeId": "2",
+      "timestamp": "2024-05-01T20:52:11.147Z"
+    },
+    {
+      "id": "fb22",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:05:41.064Z"
+    },
+    {
+      "id": "53fe",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:10:01.498Z"
+    },
+    {
+      "id": "0d2a",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:15:00.535Z"
+    },
+    {
+      "id": "fc19",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:15:41.032Z"
+    },
+    {
+      "id": "7d60",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:13:59.536Z"
+    },
+    {
+      "id": "e209",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:08:16.851Z"
+    },
+    {
+      "id": "9de6",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:10:15.947Z"
+    },
+    {
+      "id": "7bfc",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:10:15.999Z"
+    },
+    {
+      "id": "e84a",
+      "homeId": "2",
+      "timestamp": "2024-05-01T16:31:50.535Z"
+    },
+    {
+      "id": "e0da",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:08:34.877Z"
+    },
+    {
+      "id": "40c9",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:11:46.810Z"
+    },
+    {
+      "id": "528e",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:16:57.328Z"
+    },
+    {
+      "id": "428e",
+      "homeId": "2",
+      "timestamp": "2024-05-01T15:22:04.841Z"
+    }
+  ]
+}
